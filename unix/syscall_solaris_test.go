@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/sys/unix"
+	"github.com/gofile/sys/unix"
 )
 
 func TestSelect(t *testing.T) {
